@@ -1,0 +1,31 @@
+Package: smmartbodymap
+Type: Package
+Title: Plot Cancer Lesions on an Anatomical Map
+Version: 1.0.0
+Authors@R: person("Lauren", "Murray", email = "smmartbodymap@laurenmurray.me",
+  role = c("aut", "cre"), comment = c(ORCID = "0009-0001-6876-2760"))
+Description: smmartbodymap formats and plots datasets of cancer lesions on an 
+    anatomical map. The resulting plot displays lesion locations over time,
+    plotted based on their ICD-O-3 morphological location. Inspired by the 
+    BodyMapR package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.2
+Imports: 
+    checkmate,
+    dplyr,
+    ggh4x,
+    ggplot2,
+    ggrepel,
+    glue,
+    lubridate,
+    png,
+    rlang,
+    stringr,
+    viridis
