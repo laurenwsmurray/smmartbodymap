@@ -19,5 +19,5 @@ bodymap_plot
 }
 \examples{
 df <- bodymap_df(example_patient_dataset)
-bodymap_plot(df, 'female')
+bodymap_plot(df, "female")
 }

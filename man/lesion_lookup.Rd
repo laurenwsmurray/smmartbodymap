@@ -26,9 +26,6 @@ reviewed for alignment with modified body map. Manual adjustments performed as r
 lesion_lookup
 }
 \description{
-#' @description
-}
-\details{
 A list of lesion sites for both primary and metastatic lesion types. Used for matching against
  input data to determine plot location for input lesions.
 }
