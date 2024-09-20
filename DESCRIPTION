@@ -1,7 +1,7 @@
 Package: smmartbodymap
 Type: Package
 Title: Plot Cancer Lesions on an Anatomical Map
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: person("Lauren", "Murray", email = "smmartbodymap@laurenmurray.me",
   role = c("aut", "cre"), comment = c(ORCID = "0009-0001-6876-2760"))
 Description: smmartbodymap formats and plots datasets of cancer lesions on an 
@@ -18,14 +18,15 @@ Suggests:
 Config/testthat/edition: 3
 RoxygenNote: 7.3.2
 Imports: 
-    checkmate,
-    dplyr,
-    ggh4x,
-    ggplot2,
-    ggrepel,
-    glue,
-    lubridate,
-    png,
-    rlang,
-    stringr,
-    viridis
+    checkmate (>= 2.3.2),
+    dplyr (>= 1.1.4),
+    ggh4x (>= 0.2.8),
+    ggplot2 (>= 3.5.0),
+    ggrepel (>= 0.9.6),
+    glue (>= 1.7.0),
+    lubridate (>= 1.9.3),
+    png (>= 0.1-8),
+    rlang (>= 1.1.4),
+    scales (>= 1.3.0),
+    stringr (>= 1.5.0),
+    viridis (>= 0.6.5)
